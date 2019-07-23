@@ -1,0 +1,26 @@
+
+body{
+    width:1900px;
+    height:4500px;
+}
+h1 {
+    width: 349px;
+    height: 9px;
+    font-family: SourceSansPro;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #999999; 
+}
+
+#header{
+    margin:2px;
+    padding:2px;
+    width: 1900px;
+    height: 53px;
+    background-color: var(--black-three);
+}
