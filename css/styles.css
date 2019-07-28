@@ -11,16 +11,38 @@ h1 {
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
+     
+}
+
+#firstone{
+  text-align: center;
+ 
+}
+#secondone{
+    text-align: center;
+}
+#top-footer{
     line-height: 1.83;
     letter-spacing: 2.4px;
     text-align: center;
-    color: #999999; 
-}
-
-#header{
+    color: #999999;
     margin:2px;
     padding:2px;
     width: 1900px;
     height: 53px;
-    background-color: var(--black-three);
+    background-color: rgb(15, 15, 15);
 }
+
+.Home {
+    width: 36px;
+    height: 11px;
+    font-family: Dosis;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: var(--white-five);
+  }
