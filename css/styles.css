@@ -1,48 +1,83 @@
 
 body{
-    width:1900px;
+    width:100%;
     height:4500px;
 }
-h1 {
-    width: 349px;
-    height: 9px;
-    font-family: SourceSansPro;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-     
-}
+
 
 #firstone{
   text-align: center;
- 
+  color:rgb(153, 153, 153);
 }
 #secondone{
     text-align: center;
+  
+  color:rgb(153, 153, 153);
 }
+
 #top-footer{
     line-height: 1.83;
     letter-spacing: 2.4px;
     text-align: center;
     color: #999999;
-    margin:2px;
-    padding:2px;
-    width: 1900px;
+    margin:0px;
+    padding:0px;
+    border-color: transparent;
+    width: 100%;
     height: 53px;
-    background-color: rgb(15, 15, 15);
+    background-color:rgb(45, 40, 39); 
 }
-
-.Home {
-    width: 36px;
-    height: 11px;
-    font-family: Dosis;
-    font-size: 15px;
+#Image-Holder {
+    letter-spacing: 2px;
+    color:white;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(51, 51, 51);
+  }
+  #furniture-container{
+    text-align: center;
+    width: 100%;
+    height: 845px;
+    background-color:rgb(51, 51, 51);
+  }
+  
+  h1{
+  
+  height: 38px;
+  font-family: Dosis;
+  font-size: 50px;
+  padding-top: 300px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.96;
+  letter-spacing: normal;
+  color: rgb(255, 255, 255);
+}
+p{
+  padding-top:40px;
+  color:#e6e6e6;
+}
+#btn{
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(168, 141, 123);
+}  
+  
+  #featured-products{
+    width: 100%;
+    height: 24px;
+    font-family: SourceSansPro;
+    font-size: 36px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 0.75px;
-    text-align: left;
-    color: var(--white-five);
-  }
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+  height: 704px;
+  background-color: grey}
