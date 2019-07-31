@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 <title>nates online store</title>
 </head>
@@ -25,21 +24,47 @@
   </table> 
 </div>
 
-<div id="Image-Holder">
-<div class="navbar">
-    <a href="#"><i class="fa fa-fw fa-search"></i> </a> 
-    <a href="/home"><i class="home"></id></i>home</a>
-    <a href="/shop.html"></i>shop</a>
-    <a href="/about.html"></i>about</a>
-    <a hreft="/home"></i>NATEB</a>
-    <a href="/blog"></i>blog</a>
-    <a href="/contact.html"></i> Contact</a> 
-    <a href="/lookbook.html"></i>lookbook</a>
+  <div id="navbar">
+<nav class="navbar navbar-dark navbar-expand-md bg-trabsparent justify-content-md-center justify-content-start">
+    <a class="navbar-brand d-md-none d-inline" href="">Brand</a>
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="nav-link" href="#"><i class="fa fa-search mr-1"></i></a>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-md-center text-left">
+            <li class="nav-item">
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="N-A-T-E-B">
+                <a class="nav-link navbar-brand mx-0 d-none d-md-inline" href="">N A T E B</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">LOOKBOOK</a>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav flex-row justify-content-md-center justify-content-start flex-nowrap">
+    <li><a href="#" id="cart"><i class="fa fa-shopping-cart"></i>  <span class="badge"></span></a></li>
+        </ul>
+    </div>
+</nav>
   </div>
 
   <div id="furniture-container"> 
   <h1> FURNITURE </h1> 
-  <p>the best in top quality furniture in all shapes and sizes</p>
+  <p id="furniture-text">the best in top quality furniture in all shapes and sizes</p>
   <a href='https://www.freecodecamp.org/'><button id="btn">lookbook</button></a>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <i class="fa fa-angle-down" style="font-size:24px"></i>
@@ -125,7 +150,7 @@
       <footer id="bottomfooter">
           <div class="row">
             <div class="col-sm">
-             NATE B
+             <h7>NATE B</h7>
              <p><i class='fas fa-map-marker-alt'></i>379 5th Ave Rondebosch.ct 7700</p>
              <p><i class='fas fa-phone'></i>(+27)783722074</p>
              <p><i class='far fa-envelope'></i>contact@nate nonpareil.com</p> 
@@ -138,7 +163,7 @@
              <p><a href="">blog</a></p>
             </div> 
             <div class="col-sm">
-              shop
+              <h7>shop<h7>
               <p><a href="">men</a></p>
              <p><a href="">woman</a></p>
              <p><a href="">lookbook</a></p>
@@ -146,11 +171,23 @@
             </div> 
             <div class="col-sm">
               <h7>instagram</h7>
-              
+              <div class="instagram">
+                <table>
+                  <tr>
+                 <td class="pic-block"></td>
+                 <td class="pic-block"></td>
+                 <td class="pic-block"></td>
+                 <td class="pic-block"></td>
+                  </tr>
+                  <tr>
+                      <td class="pic-block"></td>
+                      <td class="pic-block"></td>
+                      <td class="pic-block"></td>
+                      <td class="pic-block"></td>
+                  </tr>
+                </table>
             </div> 
-     
-
-
+    
       </div>
 
     <link href="css/styles.css" type="text/css" rel="stylesheet">
