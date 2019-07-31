@@ -13,10 +13,17 @@
 
   }
   #firstone{
-    text-align: center;
+    text-align: left;
     color:rgb(153, 153, 153);
   }
   #secondone{
     text-align: center;
     color:rgb(153, 153, 153);
+  }
+  #navbar{
+    background-color:white;
+    
+  }
+  a{
+      color:rgb(153, 153, 153);
   }
