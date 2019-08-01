@@ -80,6 +80,36 @@
     color:white;
   }
   p{
-    font-size: 15px;
-    padding-top:opx;
-    color:#e6e6e6;}
+    width: 64px;
+  height: 12px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color:rgb(153, 153, 153);
+  }
+  p1{
+    width: 799px;
+  height: 64px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(102, 102, 102);
+  }
+
+  h1{
+    color:rgb(51, 51, 51);
+  }
+  #img1{
+    height:300px;
+    width:300px;
+  }
