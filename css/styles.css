@@ -216,26 +216,6 @@ p{
   background-color: rgb(168, 141, 123);
  }
  
- /* #ourblog{
-  width: 100%;
-  height: 671px;
-  background-color: rgb(249, 249, 249)
- } */
-
- /* #blogimage{
-   padding-bottom: 50px;
-   padding-left: 100px;
-   height:500px;
-   width:500px;
- /* } */
- /* /* #blogtext{
-  padding-top: 50px;
- text-align:left;
- height: 239px;
- font-family: SourceSansPro;
- font-size: 15px;
- color: rgb(51, 51, 51); */
-/* } */  
 
 p5{
   font-size: 15px;
@@ -254,4 +234,7 @@ p5{
   background-color: white;
   margin:10px;
   border:5px solid rgb(45, 40, 39);
+}
+#blogimage{
+  padding-bottom: 50px;
 }
