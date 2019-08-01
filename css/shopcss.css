@@ -110,6 +110,26 @@
     color:rgb(51, 51, 51);
   }
   #img1{
+    
+    padding-top: 20px;
     height:300px;
     width:300px;
+  }
+  #img2{
+    padding-top: 20px;
+    height:300px;
+    width:300px
+  }
+  #img3{
+    padding-top: 20px;
+    height:300px;
+    width:300px;
+  }
+  #img4{
+    padding-top: 20px;
+    height:300px;
+    width:300px;
+  }
+  #nextpage{
+    color:black;
   }
