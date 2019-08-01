@@ -133,10 +133,13 @@
     width:300px;
   }
   #img4{
-    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     height:300px;
     width:300px;
   }
   #nextpage{
+    text-align: center;
+    padding-bottom:80px;
     color:black;
   }
