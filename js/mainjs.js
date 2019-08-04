@@ -14,3 +14,19 @@ function viewMore() {
     imgText.innerHTML = imgs.alt;
     expandImg.parentElement.style.display = "block";
   }
+
+  function imageGalleries(imgs) {
+    var expandImg = document.getElementById("expandedSecond");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
+
+  function imageGalleryThird(imgs) {
+    var expandImg = document.getElementById("expandedThird");
+    var imgText = document.getElementById("imgtext");
+    expandImg.src = imgs.src;
+    imgText.innerHTML = imgs.alt;
+    expandImg.parentElement.style.display = "block";
+  }
