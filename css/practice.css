@@ -2,13 +2,11 @@
 ---------------------------------------------------------------------- */
 * { margin: 0px; padding: 0px; }
 body {
-    width:100%;
-    height:100%;
 	font-family: "Open Sans", sans-serif; 
 	overflow:show;	
 }
 #wrapper{
-	overflow: hidden;
+	overflow: show;
 	height: 1153px;
 	width: 1643px;
 	background:#fff;
@@ -967,7 +965,6 @@ div.sku strong{
 }
 
 .sizes-large{
-    color:transparent;
 }
 .sizes-large span{
 	font-weight:600;

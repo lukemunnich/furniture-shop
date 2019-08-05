@@ -161,7 +161,7 @@ function viewMore() {
         $("body").removeClass("MakeFloatingCart");
   
   
-        var cartItem = "<div class='cart-item'><div class='img-wrap'><img src='"+img.src+"' alt='' /></div><span>"+productName+"</span><strong>$39</strong><div class='cart-item-border'></div><div class='delete-item'></div></div>";			
+        var cartItem = "<div class='cart-item'><div class='img-wrap'><img src='"+img.src+"' alt='' /></div><span>"+productName+"</span><strong>R59.99</strong><div class='cart-item-border'></div><div class='delete-item'></div></div>";			
   
         $("#cart .empty").hide();			
         $("#cart").append(cartItem);
@@ -271,8 +271,8 @@ function viewMore() {
         $('div.floating-cart').remove();
         $("body").removeClass("MakeFloatingCart");
   
-  
-        var cartItem = "<div class='cart-item'><div class='img-wrap'><img src='"+productImage+"' alt='' /></div><span>"+productName+"</span><strong>$39</strong><div class='cart-item-border'></div><div class='delete-item'></div></div>";			
+       
+        var cartItem = "<div class='cart-item'><div class='img-wrap'><img src='"+productImage+"' alt='' /></div><span>"+productName+"</span><div class='cart-item-border'></div><div class='delete-item'></div></div>";			
   
         $("#cart .empty").hide();			
         $("#cart").append(cartItem);
