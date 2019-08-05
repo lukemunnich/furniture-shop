@@ -1,12 +1,12 @@
 function viewMore() {
-    var x = document.getElementById("myDIV");
+    var x = document.getElementById("buttonView");
     if (x.style.display === "block") {
       x.style.display = "none";
     } else {
       x.style.display = "block";
     }
   }
-
+// image gallery
   function imageGallery(imgs) {
     var expandImg = document.getElementById("expandedImg");
     var imgText = document.getElementById("imgtext");

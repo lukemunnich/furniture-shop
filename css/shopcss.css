@@ -1,6 +1,222 @@
-/*	Reset & General
----------------------------------------------------------------------- */
-* { margin: 0px; padding: 0px; }
+#top-footer{
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #999999;
+    margin:0px;
+    padding:0px;
+    border-color: transparent;
+    width: 100%;
+    height: 53px;
+    background-color:rgb(14, 13, 13); 
+  }
+  .navbar{
+    line-height: 1.83;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #999999;
+    margin:0px;
+    padding:0px;
+    border-color: transparent;
+    width: 100%;
+    height: 53px;
+    background-color:rgb(243, 237, 237); 
+  }
+  #firstone{
+    text-align: left;
+    color:rgb(153, 153, 153);
+  }
+  #secondone{
+    text-align: center;
+    color:rgb(153, 153, 153);
+  }
+  #navbar{
+    background-color:white;
+    
+  }
+  a{
+      color:rgb(153, 153, 153);
+  }
+
+  #shop{
+      text-align: center;
+      width:100%;
+      height:445px;
+      background-color: rgb(51, 51, 51);
+  }
+  #head1{
+    padding-top: 200px;
+    height: 35px;
+    font-family: SourceSansPro;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+  }
+  #buttongroup{
+    border: none;
+    color: white;
+    padding-top:60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
+  #shopbook{
+    width:100%;
+    height:1610px;
+    background-color:rgb(245, 245, 245);
+  }
+   #shopbook2{
+     width:100%;
+     height:100%;
+     background-color:rgb(245, 245, 245);
+   } 
+  
+
+  #bottomfooter{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(45, 40, 39); 
+  }
+  .pic-block{
+    width:80px;
+    height:80px;
+    background-color: white;
+    margin:px;
+    border:5px solid rgb(46, 44, 44);
+  }
+  h7{
+    color:white;
+  }
+  /* p{
+    width: 64px;
+  height: 12px;
+  font-family: SourceSansPro;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color:rgb(153, 153, 153);
+  } */
+  p1{
+    width: 799px;
+  height: 64px;
+  font-family: SourceSansPro;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgb(102, 102, 102);
+  }
+
+  h1{
+    color:rgb(51, 51, 51);
+  }
+  #img1{
+    
+    padding-top: 20px;
+    height:300px;
+    width:300px;
+  }
+  #img2{
+    padding-top: 20px;
+    height:300px;
+    width:300px
+  }
+  #img3{
+    padding-top: 20px;
+    height:300px;
+    width:300px;
+  }
+  #img4{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    height:300px;
+    width:300px;
+  }
+  #nextpage{
+    text-align: center;
+    padding-bottom:80px;
+    color:black;
+  }
+  .contact{
+    color:rgb(150, 148, 148);
+  }
+  #shop-button{
+    width: 180px;
+    height: 44px;
+  background-color: rgb(172, 144, 127);
+  }
+/* css for image gallery */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #row1{
+    width:100%;
+    height:100%;
+    background-color:rgb(245, 245, 245);
+  
+  }
+  #row2{
+    width:100%;
+    height:100%;
+    background-color:rgb(51, 51, 51);
+  }
+  #row3{
+    width:100%;
+    height:100%;
+    background-color:rgb(245, 245, 245);
+  }
+  #lookbookImage{
+    width:50%;
+    height:300px;
+  }
+  * { margin: 0px; padding: 0px; }
 body {
 	width:100%;
 	background-color:none;
@@ -28,10 +244,7 @@ body {
     height:200px;
     width:200x;
 }
-.navbar{
-	height:100px;
-	background-color: #cac725;
-}
+
 #three{
 	
     width:100%;
@@ -610,7 +823,7 @@ body.MakeFloatingCart div.cart-icon-bottom{z-index:300;}
 		 -o-transition: all 1000ms ease-out;
  		    transition: all 1000ms ease-out;
 }
-.cart-item.flash{background:#cac725;}
+.cart-item.flash{background:#c4c4c3;}
 .cart-item-border{
 	position:absolute;
 	bottom:0;
