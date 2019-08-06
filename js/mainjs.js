@@ -160,7 +160,7 @@ function viewMore() {
         $('div.floating-cart').remove();
         $("body").removeClass("MakeFloatingCart");
   
-  
+  // cart items
         var cartItem = "<div class='cart-item'><div class='img-wrap'><img src='"+img.src+"' alt='' /></div><span>"+productName+"</span><strong>R59.99</strong><div class='cart-item-border'></div><div class='delete-item'></div></div>";			
   
         $("#cart .empty").hide();			
