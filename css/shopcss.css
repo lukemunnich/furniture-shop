@@ -208,12 +208,8 @@
     height:300px;
   }
   * { margin: 0px; padding: 0px; }
-body {
-	width:100%;
-	background-color:none;
-	font-family: "Open Sans", sans-serif; 
-	overflow:show;	
-}
+  
+
 #top-footer{
     line-height: 1.83;
     letter-spacing: 2.4px;
