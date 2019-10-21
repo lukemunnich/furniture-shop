@@ -6,9 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
-   
+  
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/custom.css">
+<link href="css/shopcss.css" type="text/css" rel="stylesheet">
     <title>shop page 1 </title>
 </head>
 <body>
@@ -26,252 +29,198 @@
               </table> 
               </div>
           <!-- icon -->
-    <div id="wrapper">
-        <div class="cart-icon-top">
-        </div>
-        
-        <div class="cart-icon-bottom">
-        </div>
+  
     
-       
-        <p id="nextpage">
-           page 1
-            <a href="shop2.html" >2</a>
-            <a href="shop3.html">3</a>
-            <a href="index.html">home</a>
-            </p>
-         <div id="topbar">
-            <h3>CART</h3>
-            <div id="cart">
-                <span class="empty">No items in cart.</span>       
-            </div>
-        </div>
-        <br><br><br><br><br><br><br>
-
-        <!-- shop items -->
-        <div container class="three">
-        <div id="grid">
-            <div class="product">
-                <div class="info-large">
-                    <h4>Grand blue chaire</h4>
-                    <div class="sku">
-                        Grand B: <strong></strong>
-                    </div>
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="four columns">
                      
-                    <div class="price-big">
-                        <span>$39</span>R50000
                     </div>
-                   
-                    <button class="add-cart-large">Add To Cart</button>                          
+                    <div class="two columns u-pull-right">
+                        <ul>
+                            <li class="submenu">
+                                    <img src="images/cart.png" id="img-cart">
+                                    <div id="shopping-cart">
+                                            <table id="cart-content" class="u-full-width">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Image</th>
+                                                        <th>Name</th>
+                                                        <th>Price</th>
+                                                        <th></th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody></tbody>
+                                            </table>
+        
+                                            <a href="#" id="clear-cart" class="button u-full-width">Clear Cart</a>
+                                    </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="make3D">
-                    <div class="product-front">
-                        <div class="shadow"></div>
-                        <img id="images" src="images/bluecouch.jpg" alt="" />
-                        <div class="image_overlay"></div>
-                        <div class="add_to_cart">Add to cart</div>
-                        <div class="view_gallery">View gallery</div>                
-                        <div class="stats">        	
-                            <div class="stats-container">
-                                <span class="product_price">R8000</span>
-                                <span class="product_name">Grand blue chair</span>    
-                                <p>blue couch</p>                                            
-                                
-                                <div class="product-options">
-                               
-                            </div>                       
-                            </div>                         
-                        </div>
-                    </div>
-                    
-                    <div class="product-back">
-                        <div class="shadow"></div>
-                        <div class="carousel">
-                            <ul class="carousel-container">
-                                <li><img id="images" src="images/bluecouch.jpg" alt="" /></li>
-                            </ul>
-                            <div class="arrows-perspective">
-                                <div class="carouselPrev">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
-                                </div>
-                                <div class="carouselNext">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flip-back">
-                            <div class="cy"></div>
-                            <div class="cx"></div>
-                        </div>
-                    </div>	  
-                </div>	
             </div>
-            <div class="product">
-            <div class="info-large">
-                    <h4>comfort long</h4>
-                    <div class="sku">
-                        PRODUCT SKU: <strong></strong>
-                    </div>
-                     
-                    <div class="price-big">
-                        <span>$39</span> R5 888
-                    </div>
-                    <button class="add-cart-large">Add To Cart</button>                          
-                                 
-                </div>
-                <div class="make3D">
-                    <div class="product-front">
-                        <div class="shadow"></div>
-                        <img id="images" src ="images/comfortlong.jpg" alt="" />
-                        <div class="image_overlay"></div>
-                        <div class="add_to_cart">Add to cart</div>
-                        <div class="view_gallery">View gallery</div>
-                        <div class="stats">        	
-                            <div class="stats-container">
-                                <span class="product_price">R 7900</span>
-                                <span class="product_name">comfort long</span>    
-                                <p>comfort long</p>                                        
-                            </div>
-                            </div>                         
-                        </div>
-                    <div class="product-back">
-                        <div class="shadow"></div>
-                        <div class="carousel">
-                            <ul class="carousel-container">
-                                <li><img id="images" src="images/comfortlong.jpg" alt="" /></li>
-                            
-                            </ul>
-                            <div class="arrows-perspective">
-                                <div class="carouselPrev">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
-                                </div>
-                                <div class="carouselNext">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="flip-back">
-                            <div class="cy"></div>
-                            <div class="cx"></div>
-                        </div>
-                    </div>	  
-                </div>	
+            </header>
             </div>
-       
-
-            <div class="product">
-            <div class="info-large">
-                    <h4>dinning table</h4>
-                    <div class="sku">
-                        PRODUCT SKU: <strong></strong>
+        
+            <div id="courses-list" class="container">
+                <h1 id="heading" class="heading">SELECT FURNITURE</h1>
+                <div class="row">
+                    <div class="four columns">
+                        <div class="card">
+                             <img id="images" src="images/bluecouchlong.jpg" alt="bluecouchlong" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Grand blue couch</h4>
+                                <p>blue luxury</p>
+                                <!-- <img id="images" src="images/bluecouchlong.jpg" alt="bluecouchlong"> -->
+                                <p class="price"> <span class="u-pull-right ">R6000</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="1">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
                     </div>
-                    <button class="add-cart-large">Add To Cart</button>                          
-                                 
-                </div>
-                <div class="make3D">        
-                    <div class="product-front">
-                        <div class="shadow"></div>
-                        <img  id="images" src="images/dinning table.jpg" alt="" />
-                        <div class="image_overlay"></div>
-                        <div class="add_to_cart">Add to cart</div>
-                        <div class="view_gallery">View gallery</div>
-                        <div class="stats">        	
-                            <div class="stats-container">
-                                <span class="product_price">R25000</span>
-                                <span class="product_name">dinning table</span>    
-                                <p>dinning table</p>                                            
-                                
-                             
-                            </div>                       
-                            </div>                         
-                        </div>
-                    </div>
-                    
-                    <div class="product-back">
-                        <div class="shadow"></div>
-                        <div class="carousel">
-                            <ul class="carousel-container">
-                                <li><img id="images" src="images/handcrafted.jpg" alt="" /></li>
-                                
-                            </ul>
-                            <div class="arrows-perspective">
-                                <div class="carouselPrev">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
-                                </div>
-                                <div class="carouselNext">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="img/course2.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Cooking Course</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="2">Add to Cart</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="flip-back">
-                            <div class="cy"></div>
-                            <div class="cx"></div>
-                        </div>
-                    </div>	  
-                </div>	
-            </div>
-    </div>
-            
-            <div class="product">
-            <div class="info-large">
-                    <h4>fabric</h4>
-                    <div class="sku">
-                        PRODUCT SKU: <strong>89356</strong>
                     </div>
-                    <div class="price-big">
-                        <span>R9000</span> R9000
-                    </div>
-                    <button class="add-cart-large">Add To Cart</button>                          
-                                 
-                </div>
-                <div class="make3D">
-                    <div class="product-front">
-                        <div class="shadow"></div>
-                        <img id="images" src="images/fabriccouch.jpg" alt="" />
-                        <div class="image_overlay"></div>
-                        <div class="add_to_cart">Add to cart</div>
-                        <div class="view_gallery">View gallery</div>
-                        <div class="stats">        	
-                            <div class="stats-container">
-                                <span class="product_price">R 4900</span>
-                                <span class="product_name">fabricouch</span>    
-                                <p>fabric couch</p>                                    
-                            </div>                       
-                            </div>                         
-                        </div>
-                    </div>
-                    
-                    <div class="product-back">
-                        <div class="shadow"></div>
-                        <div class="carousel">
-                            <ul class="carousel-container">
-                                <li><img id="images" src="images/fabriccouch.jpg" alt="" /></li>
-                              
-                            </ul>
-                            <div class="arrows-perspective">
-                                <div class="carouselPrev">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="img/course3.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Guitar for beginners</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="3">Add to Cart</a>
                                 </div>
-                                <div class="carouselNext">
-                                    <div class="y"></div>
-                                    <div class="x"></div>
-                                </div>
+                            </div> <!--.card-->
+                    </div>
+        
+                </div> <!--.row-->
+                <div class="row">
+                    <div class="four columns">
+                        <div class="card">
+                            <img src="img/course4.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Orchard at home</h4>
+                                <p>Juan Pedro</p>
+                                <img src="img/stars.png">
+                                <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="4">Add to Cart</a>
                             </div>
+                        </div> <!--.card-->
+                    </div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="img/course5.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Home Decor with recycled products</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="5">Add to Cart</a>
+                                </div>
+                            </div> <!--.card-->
+                    </div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="img/course1.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Web Design for beginners</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="6">Add to Cart</a>
+                                </div>
+                            </div> <!--.card-->
+                    </div>
+                </div> <!--.row-->
+                <div class="row">
+                    <div class="four columns">
+                        <div class="card">
+                            <img src="img/course2.jpg" class="course-image u-full-width">
+                            <div class="info-card">
+                                <h4>Learn to cook mexican food</h4>
+                                <p>Juan Pedro</p>
+                                <img src="img/stars.png">
+                                <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="7">Add to Cart</a>
+                            </div>
+                        </div> <!--.card-->
+                    </div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="img/course3.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Build a Music Studio</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="8">Add to Cart</a>
+                                </div>
+                            </div> <!--.card-->
+                    </div>
+                    <div class="four columns">
+                            <div class="card">
+                                <img src="img/course4.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Harvest your own fruits and vegetables</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="9">Add to Cart</a>
+                                </div>
+                            </div> <!--.card-->
+                    </div>
+                </div> <!--.row-->
+                <div class="row">
+                        <div class="four columns">
+                            <div class="card">
+                                <img src="img/course5.jpg" class="course-image u-full-width">
+                                <div class="info-card">
+                                    <h4>Cook home cookies</h4>
+                                    <p>Juan Pedro</p>
+                                    <img src="img/stars.png">
+                                    <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                    <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="10">Add to Cart</a>
+                                </div>
+                            </div> <!--.card-->
                         </div>
-                        <div class="flip-back">
-                            <div class="cy"></div>
-                            <div class="cx"></div>
+                        <div class="four columns">
+                                <div class="card">
+                                    <img src="img/course1.jpg" class="course-image u-full-width">
+                                    <div class="info-card">
+                                        <h4>Modern JavaScript</h4>
+                                        <p>Juan Pedro</p>
+                                        <img src="img/stars.png">
+                                        <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="11">Add to Cart</a>
+                                    </div>
+                                </div> <!--.card-->
                         </div>
-                    </div>	  
-                </div>	
+                        <div class="four columns">
+                                <div class="card">
+                                    <img src="img/course2.jpg" class="course-image u-full-width">
+                                    <div class="info-card">
+                                        <h4>100 Natural recipes</h4>
+                                        <p>Juan Pedro</p>
+                                        <img src="img/stars.png">
+                                        <p class="price">$200  <span class="u-pull-right ">$15</span></p>
+                                        <a href="#" class="u-full-width button-primary button input add-to-cart" data-id="12">Add to Cart</a>
+                                    </div>
+                                </div> <!--.card-->
+                        </div>
+                    </div> <!--.row-->
             </div>
+        
          
             <!-- footer -->
             <footer id="bottomfooter" class="bg-dark">
@@ -321,11 +270,7 @@
             </div>
             </footer>
 
-           
-           
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> 
-   <link href="css/shopcss.css" type="text/css" rel="stylesheet">
-    <script src="js/mainjs.js"></script> 
+   <script src="js/app.js"></script> 
 </body>
 </html>
 
